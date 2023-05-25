@@ -80,6 +80,19 @@
     "dimensionType": "classification",
     "uniqueIdentifier": true
   },
+  "foobar-classification:generic:level1:code": {
+    "classificationType": "foobar",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "uniqueIdentifier": true
+  },
+  "foobar-classification:generic:level2:code": {
+    "classificationType": "foobar",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "foobar-classification:generic:level1:code",
+    "uniqueIdentifier": true
+  },
   "administrative-classification:generic:level1:description": {
     "classificationType": "administrative",
     "dataType": "string",
