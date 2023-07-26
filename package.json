@@ -5,6 +5,7 @@
   "scripts": {
     "prebuild": "rm -rf dist && mkdir dist",
     "build": "babel src/index.js -o dist/index.js && babel src/extra-options.js -o dist/extra-options.js",
+    "prepare": "npm run build",
     "postbuild": "cp src/*.json dist/",
     "commit": "git-cz",
     "check-coverage": "istanbul check-coverage --statements 85 --branches 85 --functions 85 --lines 85",
